@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/TablaNumero")
 public class TablaNumero extends HttpServlet {
-	
+	// commit 1
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int num=Integer.parseInt(request.getParameter("numero"));
 		response.setContentType("text/html");
